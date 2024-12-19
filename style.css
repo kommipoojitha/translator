@@ -67,4 +67,38 @@ button {
         font-weight: 600;
         margin-top: 15px;
         text-align: center;
-}   
+} 
+@media (max-width: 400px) {
+    #container {
+        padding: 8px;
+        width:50%;
+    }
+
+    #inputbox,#outputbox, button {
+        font-size: 8px;
+        width:50%
+    }
+
+    #logo {
+        width:25px;
+    }
+    h1{
+        font-size:1rem;
+    }
+}  
+
+@media (max-width: 600px) {
+    #container {
+        padding: 15px;
+        width:70%
+    }
+
+    #inputbox,#outputbox button {
+        font-size: 14px;
+        width:70%;
+    }
+
+    #logo {
+        width:100px;
+    }
+}  
